@@ -4,8 +4,8 @@ import './Navigation.scss';
 import { Switch, Route, NavLink } from 'react-router-dom';
 
 import Python from '../../Technologies/Python/Python.js';
-import Java from '../../Technologies/Java/Java';
-import Csharp from '../../Technologies/Csharp/Csharp';
+import Java from '../../Technologies/Java/Java.js';
+import CSharp from '../../Technologies/CSharp/CSharp.js';
 import JavaScript from '../../Technologies/JavaScript/JavaScript.js';
 import logo from '../../../assets/logo.png'
 
@@ -22,7 +22,7 @@ function Navigation() {
                 <NavLink to="/csharp">C#</NavLink>
                 <Switch>
                     <Route path="/python" component={Python}></Route>
-                    <Route path="/csharp" component={Csharp}></Route>
+                    <Route path="/csharp" component={CSharp}></Route>
                     <Route path="/java" component={Java}></Route>
                     <Route path="/javascript" component={JavaScript}></Route>
                 </Switch>
