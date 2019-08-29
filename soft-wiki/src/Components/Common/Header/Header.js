@@ -1,10 +1,10 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 
 function Header() {
     return(
-        <div className="header">
-            This is the header
+        <div className="Header">
+            This is the Header
         </div>
     )
 }
