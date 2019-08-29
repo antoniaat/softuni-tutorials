@@ -1,8 +1,8 @@
 import React from 'react';
-import './Csharp.css';
-import Article from '../Article';
+import './CSharp.scss';
+import Article from '../Article.js';
 
-import csharp from './csharp.json';
+import csharp from './CSharpData.json';
 
 function Csharp() {
     return(

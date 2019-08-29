@@ -1,14 +1,14 @@
 import React from 'react';
 import './Python.scss';
-import Article from '../Article';
+import Article from '../Article.js';
 
-import python from './python.json'
+import PythonData from './PythonData.json'
 
 function Python() {
     return(
         <div className="python">
             This is the python page
-            {python.map(article => { return(
+            {PythonData.map(article => { return(
                 <Article {...article}></Article>
             )})}
         </div>

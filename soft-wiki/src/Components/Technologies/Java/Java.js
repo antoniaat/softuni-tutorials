@@ -1,16 +1,18 @@
 import React from 'react';
-import './Java.css';
+import './Java.scss';
 import Article from '../Article.js';
 
-import java from './java.json';
+import JavaData from './JavaData.json';
 
 function Java() {
-    return(
+    return (
         <div className="java">
             This is the Java page
-            {java.map(article => { return(
-                <Article {...article}></Article>
-            ) })}
+            {JavaData.map(article => {
+                return (
+                    <Article {...article}></Article>
+                )
+            })}
         </div>
     )
 }
