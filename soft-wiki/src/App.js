@@ -3,9 +3,9 @@ import './App.css';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import Navigation from './Components/Navigation/Navigation';
+import Footer from './Components/Common/Footer/Footer.js';
+import Header from './Components/Common/Header/Header';
+import Navigation from './Components/Common/Navigation/Navigation';
 
 function App() {
   return (

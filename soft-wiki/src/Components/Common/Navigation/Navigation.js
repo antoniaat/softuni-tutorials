@@ -1,12 +1,12 @@
 import React from 'react';
-import './Navigation.css';
+import './Navigation.scss';
 
 import { Switch, Route, NavLink } from 'react-router-dom';
 
-import Python from '../Python/Python';
-import Java from '../Java/Java';
-import Csharp from '../Csharp/Csharp';
-import Javascript from '../Javascript/Javascript';
+import Python from '../../Technologies/Python/Python.js';
+import Java from '../../Technologies/Java/Java';
+import Csharp from '../../Technologies/Csharp/Csharp';
+import JavaScript from '../../Technologies/JavaScript/JavaScript.js';
 
 function Navigation() {
     return(
@@ -19,7 +19,7 @@ function Navigation() {
                 <Route path="/python" component={Python}></Route>
                 <Route path="/csharp" component={Csharp}></Route>
                 <Route path="/java" component={Java}></Route>
-                <Route path="/javascript" component={Javascript}></Route>
+                <Route path="/javascript" component={JavaScript}></Route>
             </Switch>
         </div>
     )
