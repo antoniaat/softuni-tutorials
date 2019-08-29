@@ -3,11 +3,13 @@ import './Java.css';
 import Article from '../Article.js';
 
 function Java() {
+    const title = "Java Title";
+    const content = "Java Content";
+ 
     return(
         <div className="java">
             This is the java page
-
-            <Article title={JavaTitle}></Article>
+            <Article title={title} content={content}></Article>
         </div>
     )
 }
