@@ -7,14 +7,10 @@ import Python from '../../Technologies/Python/Python.js';
 import Java from '../../Technologies/Java/Java.js';
 import CSharp from '../../Technologies/CSharp/CSharp.js';
 import JavaScript from '../../Technologies/JavaScript/JavaScript.js';
-import logo from '../../../assets/logo.png'
 
 function Navigation() {
     return (
         <div className="navigation">
-            <div className='logo-container'>
-                <img src={logo}></img>
-            </div>
             <div className='menu-container'>
                 <NavLink to="/python">Python</NavLink>
                 <NavLink to="/java">Java</NavLink>
