@@ -1,0 +1,20 @@
+@import '../../../../node_modules/react-web-tabs/dist/react-web-tabs.css';
+
+.CSharp {
+    display: block;
+    background: white;
+    width: 100%;
+
+    h3, h2, h1 {
+        color: #303440;
+        font-weight: 500;
+    }
+
+    .rwt__tab {
+        text-align: left;
+    }
+
+    .rwt__tabpanel {
+        padding: 2em;
+    }
+}
