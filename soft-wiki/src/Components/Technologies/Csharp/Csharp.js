@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "./CSharp.scss";
+import "../Technology.scss";
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
 class CSharp extends Component {
   render() {
     return (
-      <div className="CSharp">
+      <div className="CSharp technology-container">
         <Tabs
           vertical
           onChange={tabId => {
