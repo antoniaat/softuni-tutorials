@@ -21,6 +21,16 @@
             padding: 8px 12px;
             cursor: pointer;
             border: 1px solid #44A9F8;
+            outline: none;
+
+            &:hover {
+                background: #303440;
+                border-color: #303440;
+
+                a {
+                    color: white;
+                }
+            }
 
             a {
                 color: #44A9F8;
@@ -50,10 +60,6 @@
         text-align: right;
         display: inline;
         vertical-align: bottom;
-        // position: relative;
-        // top: -14px;
-
-        /* Icons */
 
         a {
             color: #fff;
