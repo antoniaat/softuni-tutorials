@@ -14,19 +14,19 @@ class CSharp extends Component {
         >
           <TabList>
             <Tab tabFor="Methods">
-              <h3>Methods</h3>
+              <h3>C# Methods</h3>
             </Tab>
             <Tab tabFor="Interfaces">
-              <h3>Interfaces </h3>
+              <h3>C# Interfaces </h3>
             </Tab>
             <Tab tabFor="Lambda">
-              <h3>Lambda</h3>
+              <h3>C# Lambda</h3>
             </Tab>
             <Tab tabFor="Generics">
-              <h3>Generics</h3>
+              <h3>C# Generics</h3>
             </Tab>
             <Tab tabFor="Expression">
-              <h3>Expression Trees</h3>
+              <h3>C# Expression Trees</h3>
             </Tab>
           </TabList>
           <TabPanel tabId="Methods">
