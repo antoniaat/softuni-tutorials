@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../Technology.scss";
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
+// import { Interfaces } from "./dat";
 
 class Java extends Component {
   render() {
