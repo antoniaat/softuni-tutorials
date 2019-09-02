@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .Navigation {
     background: #44A9F8;
     width: 100%;
@@ -12,16 +14,22 @@
         width: 80%;
 
         a {
+            font-family: 'Montserrat', sans-serif;
             margin: 0 .5em;
             color: white;
             text-decoration: none;
             text-transform: uppercase;
             vertical-align: middle;
-            padding: 11px;
+            padding: 9px;
+            font-weight: bold;
+            font-size: 20px;
 
+            .link-wrapper {
+                text-decoration: none;
+            }
 
             &:hover {
-                padding: 11px;
+                padding: 9px;
                 background-color: #2e90db;
                 box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.75);
             }

@@ -21,13 +21,24 @@ function Navigation() {
       <div className="Navigation">
         <div className="menu-container">
           <div className="menu-items">
-            <NavLink to="/python">
+            <NavLink to="/csharp">
               <span>{faHomeIcon}</span>
             </NavLink>
-            <NavLink to="/python">Python</NavLink>
-            <NavLink to="/java">Java</NavLink>
-            <NavLink to="/javascript">JavaScript</NavLink>
-            <NavLink to="/csharp">C#</NavLink>
+            <NavLink to="/csharp" activeClassName="active">
+              C#
+            </NavLink>
+
+            <NavLink activeClassName="active" to="/javascript">
+              JavaScript
+            </NavLink>
+
+            <NavLink activeClassName="active" to="/java">
+              Java
+            </NavLink>
+
+            <NavLink activeClassName="active" to="/python">
+              Python
+            </NavLink>
           </div>
 
           <div className="search-bar">
@@ -36,10 +47,11 @@ function Navigation() {
         </div>
       </div>
       <Switch>
-        <Route path="/python" component={Python}></Route>
         <Route path="/csharp" component={CSharp}></Route>
-        <Route path="/java" component={Java}></Route>
         <Route path="/javascript" component={JavaScript}></Route>
+        <Route path="/java" component={Java}></Route>
+        <Route path="/python" component={Python}></Route>
+        <Route path="/" component={CSharp}></Route>
       </Switch>
     </div>
   );

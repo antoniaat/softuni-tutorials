@@ -21,22 +21,23 @@ function Header() {
     <div className="Header">
       <section>
         <button>
-          <Link to="https://www.softuni.bg">
+          <a href="https://www.softuni.bg" target="_blank">
             <span>{arrowLeftIcon}</span>Back to SoftUni
-          </Link>
+          </a>
         </button>
 
         <section className="social-icons">
-        <Link to="https://www.facebook.com/softuni.org">{faFacebookIcon}</Link>
-        <Link to="https://twitter.com/SoftUni1">{faTwitterIcon}</Link>
-        <Link to="https://www.instagram.com/softuni_org/">
-          {faInstagramIcon}
-        </Link>
-        <Link to="https://www.youtube.com/channel/UCqvOk8tYzfRS-eDy4vs3UyA">
-          {faYoutubeIcon}
-        </Link>
-      </section>
-
+          <Link to="https://www.facebook.com/softuni.org">
+            {faFacebookIcon}
+          </Link>
+          <Link to="https://twitter.com/SoftUni1">{faTwitterIcon}</Link>
+          <Link to="https://www.instagram.com/softuni_org/">
+            {faInstagramIcon}
+          </Link>
+          <Link to="https://www.youtube.com/channel/UCqvOk8tYzfRS-eDy4vs3UyA">
+            {faYoutubeIcon}
+          </Link>
+        </section>
       </section>
       <section>
         <img src={logo}></img>

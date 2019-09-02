@@ -1,11 +1,13 @@
-@import '../../../../node_modules/react-web-tabs/dist/react-web-tabs.css';
+@import '../../../node_modules/react-web-tabs/dist/react-web-tabs.css';
 
-.CSharp {
+.technology-container {
     display: block;
     background: white;
     width: 100%;
 
-    h3, h2, h1 {
+    h3,
+    h2,
+    h1 {
         color: #303440;
         font-weight: 500;
     }
