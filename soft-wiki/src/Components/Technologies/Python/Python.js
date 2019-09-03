@@ -3,8 +3,8 @@ import "../Technology.scss";
 import { NavLink, Switch, Route } from 'react-router-dom';
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
-import ExpressionStatements from './data/ExpressionStatements';
-import AssignmentStatements from './data/AssignmentStatements';
+import PythonNumber from './data/PythonNumber';
+import PythonString from './data/PythonString';
 
 class Python extends Component {
   render() {
@@ -17,22 +17,22 @@ class Python extends Component {
           }}
         >
           <TabList>
-            <Tab tabFor="SimpleStatements">
+            <Tab tabFor="DataTypes">
               <NavLink to='/python'>
-                <h3>Python Simple Statements</h3>
+                <h3>Python Data Types</h3>
               </NavLink>
             </Tab>
           </TabList>
-          <TabPanel tabId="SimpleStatements">
+          <TabPanel tabId="DataTypes">
             <Switch>
-              <Route path="/python/expression_statements" component={ExpressionStatements}></Route>
-              <Route path="/python/assignment_statements" component={AssignmentStatements}></Route>
+              <Route path="/python/number" component={PythonNumber}></Route>
+              <Route path="/python/string" component={PythonString}></Route>
               <Route path="/python">
-                <NavLink to='/python/expression_statements'>
-                  <h2>Expressions Statements</h2>
+                <NavLink to='/python/number'>
+                  <h2>Number</h2>
                 </NavLink>
-                <NavLink to='/python/assignment_statements'>
-                  <h2>Assignment Statements</h2>
+                <NavLink to='/python/string'>
+                  <h2>String</h2>
                 </NavLink>
               </Route>
             </Switch>

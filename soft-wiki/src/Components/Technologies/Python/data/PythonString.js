@@ -1,7 +1,7 @@
 import React from "react";
 // import "../Technology.scss";
 
-function ExpressionStatements() {
+function PythonString() {
     return (
         <div>
             <h1>Expression Statements</h1>
@@ -21,4 +21,4 @@ function ExpressionStatements() {
     )
 }
 
-export default ExpressionStatements;
+export default PythonString;

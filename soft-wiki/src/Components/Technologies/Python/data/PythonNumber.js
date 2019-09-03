@@ -1,7 +1,7 @@
 import React from "react";
 // import "../Technology.scss";
 
-function AssignmentStatements() {
+function PythonNumber() {
     return (
         <div>
             <h1>Assignment Statements</h1>
@@ -29,4 +29,4 @@ function AssignmentStatements() {
     )
 }
 
-export default AssignmentStatements;
+export default PythonNumber;
