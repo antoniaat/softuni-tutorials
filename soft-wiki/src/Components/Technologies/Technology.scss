@@ -20,6 +20,9 @@
         color: #303440;
         font-weight: 500;
     }
+    span {
+        display: inline-block;
+    }
 
     .rwt__tab {
         text-align: left;
@@ -38,5 +41,11 @@
         border-width: 1px;
         padding: 9px;
     }
+    .variable-type{
+        color:purple;
+    }
+    .keyword {
+        color:#008
+       }
 }
 
