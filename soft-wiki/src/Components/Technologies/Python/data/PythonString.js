@@ -4,19 +4,47 @@ import React from "react";
 function PythonString() {
     return (
         <div>
-            <h1>Expression Statements</h1>
-            <p>Expression statements are used (mostly interactively) to <strong>compute</strong> and <strong>write</strong> a value, or (usually) to call a procedure (a function that returns no meaningful result; in <strong>Python</strong>, procedures return the value <b><i>None</i></b>).</p>
-            <p>Other uses of expression statements are allowed and occasionally useful.</p>
-            <p>The syntax for an expression statement is:</p>
-            <div className='code-block'>
+            <h1>Strings</h1>
+            <p>String literals in python are surrounded by either single quotation marks, or double quotation marks.</p>
+
+            <p><b><i>'hello'</i></b> is the same as <b><i>"hello"</i></b>.</p>
+
+            <p>You can display a string literal with the <b><i>print()</i></b> function:</p>
+            <div className="code-block">
                 <code>
-                    <p>expression_stmt <strong>::=</strong>  starred_expression</p>
-                    <p className='comment'># An expression statement evaluates the expression list (which may be a single expression).</p>
+                    <p>print("Hello")</p>
+                    <p>print('Hello')</p>
                 </code>
             </div>
-            <p>
-            In interactive mode, if the value is not <b><i>None</i></b>, it is converted to a string using the built-in <b><i>repr()</i></b> function and the resulting string is written to standard output on a line by itself (except if the result is <b><i>None</i></b>, so that procedure calls do not cause any output.)
-            </p>
+            <h2><u>Assign string to a variable</u></h2>
+            <p>Assigning a string to a variable is done with the variable name followed by an equal sign and the string:</p>
+            <div className="code-block">
+                <code>
+                    <p>a = "Hello"</p>
+                    <p>print(a)</p>
+                </code>
+            </div>
+            <h2><u>Multiline strings</u></h2>
+            <p>You can assign a multiline string to a variable by using three quotes:</p>
+            <div className="code-block">
+                <code>
+                    <p>a = """Lorem ipsum dolor sit amet,</p>
+                    <p>consectetur adipiscing elit,</p>
+                    <p>sed do eiusmod tempor incididunt</p>
+                    <p>ut labore et dolore magna aliqua."""</p>
+                    <p>print(a)</p>
+                </code>
+            </div>
+            <p>Or three single quotes:</p>
+            <div className="code-block">
+                <code>
+                    <p>a = '''Lorem ipsum dolor sit amet,</p>
+                    <p>consectetur adipiscing elit,</p>
+                    <p>sed do eiusmod tempor incididunt</p>
+                    <p>ut labore et dolore magna aliqua.'''</p>
+                    <p>print(a)</p>
+                </code>
+            </div>
         </div>
     )
 }
