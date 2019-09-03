@@ -4,6 +4,7 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
  import  Interfaces  from "./data/Interfaces";
+ import  Encapsulation  from "./data/Encapsulation";
 
 class Java extends Component {
   render() {
@@ -25,14 +26,14 @@ class Java extends Component {
           <TabPanel tabId="Interfaces">
             <Switch>
               <Route path="/java/interfaces" component={Interfaces}></Route>
-              {/* <Route path="/java/assignment_statements" component={AssignmentStatements}></Route> */}
+              <Route path="/java/encapsulation" component={Encapsulation}></Route>
               <Route path="/java">
                 <NavLink to='/java/interfaces'>
                   <h2>Interfaces</h2>
                 </NavLink>
-                {/* <NavLink to='/java/assignment_statements'>
-                  <h2>Assignment Statements</h2>
-                </NavLink> */}
+                <NavLink to='/java/encapsulation'>
+                  <h2>Encapsulation</h2>
+                </NavLink>
               </Route>
             </Switch>
           </TabPanel>
