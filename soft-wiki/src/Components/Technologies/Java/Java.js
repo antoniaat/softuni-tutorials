@@ -5,6 +5,7 @@ import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
  import  Interfaces  from "./data/Interfaces";
  import  Encapsulation  from "./data/Encapsulation";
+ import  EnvironmentSetup  from "./data/EnvironmentSetup";
 
 class Java extends Component {
   render() {
@@ -22,6 +23,11 @@ class Java extends Component {
                 <h3>Java Object Oriented</h3>
               </NavLink>
             </Tab>
+            <Tab tabFor="JavaTutorial">
+              <NavLink to='/java'>
+                <h3>Java Tutorial</h3>
+              </NavLink>
+            </Tab>
           </TabList>
           <TabPanel tabId="Interfaces">
             <Switch>
@@ -33,6 +39,16 @@ class Java extends Component {
                 </NavLink>
                 <NavLink to='/java/encapsulation'>
                   <h2>Encapsulation</h2>
+                </NavLink>
+              </Route>
+            </Switch>
+          </TabPanel>
+          <TabPanel tabId="JavaTutorial">
+            <Switch>
+              <Route path="/java/environment-setup" component={EnvironmentSetup}></Route>
+              <Route path="/java">
+                <NavLink to='/java/environment-setup'>
+                  <h2>Environment Setup</h2>
                 </NavLink>
               </Route>
             </Switch>
