@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.84475106.chunk.css",
-    "main.js": "/static/js/main.e313c01d.chunk.js",
-    "main.js.map": "/static/js/main.e313c01d.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.13f77494.js",
-    "runtime~main.js.map": "/static/js/runtime~main.13f77494.js.map",
-    "static/css/2.a86b6dc4.chunk.css": "/static/css/2.a86b6dc4.chunk.css",
-    "static/js/2.70fd0e36.chunk.js": "/static/js/2.70fd0e36.chunk.js",
-    "static/js/2.70fd0e36.chunk.js.map": "/static/js/2.70fd0e36.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.47fcd68bbbe52e0d91d0ce9958af38c2.js": "/precache-manifest.47fcd68bbbe52e0d91d0ce9958af38c2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.a86b6dc4.chunk.css.map": "/static/css/2.a86b6dc4.chunk.css.map",
-    "static/css/main.84475106.chunk.css.map": "/static/css/main.84475106.chunk.css.map",
-    "static/media/logo-with-text.png": "/static/media/logo-with-text.49330e6b.png"
+    "main.css": "/public/index.html/static/css/main.84475106.chunk.css",
+    "main.js": "/public/index.html/static/js/main.e313c01d.chunk.js",
+    "main.js.map": "/public/index.html/static/js/main.e313c01d.chunk.js.map",
+    "runtime~main.js": "/public/index.html/static/js/runtime~main.49b72ec3.js",
+    "runtime~main.js.map": "/public/index.html/static/js/runtime~main.49b72ec3.js.map",
+    "static/css/2.a86b6dc4.chunk.css": "/public/index.html/static/css/2.a86b6dc4.chunk.css",
+    "static/js/2.70fd0e36.chunk.js": "/public/index.html/static/js/2.70fd0e36.chunk.js",
+    "static/js/2.70fd0e36.chunk.js.map": "/public/index.html/static/js/2.70fd0e36.chunk.js.map",
+    "index.html": "/public/index.html/index.html",
+    "precache-manifest.3987ef0661bec9470be855b4cf6f0c90.js": "/public/index.html/precache-manifest.3987ef0661bec9470be855b4cf6f0c90.js",
+    "service-worker.js": "/public/index.html/service-worker.js",
+    "static/css/2.a86b6dc4.chunk.css.map": "/public/index.html/static/css/2.a86b6dc4.chunk.css.map",
+    "static/css/main.84475106.chunk.css.map": "/public/index.html/static/css/main.84475106.chunk.css.map",
+    "static/media/logo-with-text.png": "/public/index.html/static/media/logo-with-text.49330e6b.png"
   }
 }
