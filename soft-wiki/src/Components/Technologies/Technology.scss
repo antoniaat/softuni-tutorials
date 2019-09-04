@@ -20,6 +20,7 @@
         color: #303440;
         font-weight: 500;
     }
+
     span {
         display: inline-block;
     }
@@ -32,25 +33,32 @@
         padding: 2em;
     }
 
-    .comment{
+    .comment {
         color: red;
     }
-    .code-block{
+
+    .code-block {
         background-color: #eee;
         border-style: solid;
         border-width: 1px;
         padding: 9px;
     }
-    .variable-type{
-        color:purple;
+
+    .variable-type {
+        color: purple;
     }
+
     .keyword {
-        color:#008
-       }
-    .link{
+        color: #008
+    }
+
+    .link {
         text-decoration: none;
         color: #303440;
         font-size: 16px;
     }
 }
 
+.rwt__tabpanel {
+    width: 100%;
+}

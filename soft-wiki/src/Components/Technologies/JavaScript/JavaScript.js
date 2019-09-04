@@ -5,6 +5,7 @@ import "../Technology.scss";
 
 import NodeJS from "./data/NodeJS.js";
 import Functions from "./data/Functions.js";
+import ConditionalStatements from "./data/ConditionalStatements.js";
 
 class JavaScript extends Component {
   render() {
@@ -25,6 +26,10 @@ class JavaScript extends Component {
             <Switch>
               <Route path="/javascript/nodejs" component={NodeJS}></Route>
               <Route path="/javascript/functions" component={Functions}></Route>
+              <Route
+                path="/javascript/conditional-statements"
+                component={ConditionalStatements}
+              ></Route>
 
               <Route path="/javascript">
                 <NavLink to="/javascript/nodejs">
@@ -33,6 +38,10 @@ class JavaScript extends Component {
 
                 <NavLink to="/javascript/functions">
                   <h2>Functions</h2>
+                </NavLink>
+
+                <NavLink to="/javascript/conditional-statements">
+                  <h2>Conditional Statements</h2>
                 </NavLink>
               </Route>
             </Switch>
