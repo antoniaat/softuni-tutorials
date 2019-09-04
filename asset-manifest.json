@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.84475106.chunk.css",
-    "main.js": "/static/js/main.e313c01d.chunk.js",
-    "main.js.map": "/static/js/main.e313c01d.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.13f77494.js",
-    "runtime~main.js.map": "/static/js/runtime~main.13f77494.js.map",
-    "static/css/2.a86b6dc4.chunk.css": "/static/css/2.a86b6dc4.chunk.css",
-    "static/js/2.70fd0e36.chunk.js": "/static/js/2.70fd0e36.chunk.js",
-    "static/js/2.70fd0e36.chunk.js.map": "/static/js/2.70fd0e36.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.47fcd68bbbe52e0d91d0ce9958af38c2.js": "/precache-manifest.47fcd68bbbe52e0d91d0ce9958af38c2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.a86b6dc4.chunk.css.map": "/static/css/2.a86b6dc4.chunk.css.map",
-    "static/css/main.84475106.chunk.css.map": "/static/css/main.84475106.chunk.css.map",
-    "static/media/logo-with-text.png": "/static/media/logo-with-text.49330e6b.png"
+    "main.css": "/antoniaat/SoftUni-Wiki/static/css/main.84475106.chunk.css",
+    "main.js": "/antoniaat/SoftUni-Wiki/static/js/main.e313c01d.chunk.js",
+    "main.js.map": "/antoniaat/SoftUni-Wiki/static/js/main.e313c01d.chunk.js.map",
+    "runtime~main.js": "/antoniaat/SoftUni-Wiki/static/js/runtime~main.e1e28090.js",
+    "runtime~main.js.map": "/antoniaat/SoftUni-Wiki/static/js/runtime~main.e1e28090.js.map",
+    "static/css/2.a86b6dc4.chunk.css": "/antoniaat/SoftUni-Wiki/static/css/2.a86b6dc4.chunk.css",
+    "static/js/2.70fd0e36.chunk.js": "/antoniaat/SoftUni-Wiki/static/js/2.70fd0e36.chunk.js",
+    "static/js/2.70fd0e36.chunk.js.map": "/antoniaat/SoftUni-Wiki/static/js/2.70fd0e36.chunk.js.map",
+    "index.html": "/antoniaat/SoftUni-Wiki/index.html",
+    "precache-manifest.f5623bd994e7ed1659de58b10acd19e2.js": "/antoniaat/SoftUni-Wiki/precache-manifest.f5623bd994e7ed1659de58b10acd19e2.js",
+    "service-worker.js": "/antoniaat/SoftUni-Wiki/service-worker.js",
+    "static/css/2.a86b6dc4.chunk.css.map": "/antoniaat/SoftUni-Wiki/static/css/2.a86b6dc4.chunk.css.map",
+    "static/css/main.84475106.chunk.css.map": "/antoniaat/SoftUni-Wiki/static/css/main.84475106.chunk.css.map",
+    "static/media/logo-with-text.png": "/antoniaat/SoftUni-Wiki/static/media/logo-with-text.49330e6b.png"
   }
 }
