@@ -10,9 +10,9 @@ function Functions() {
         <li>You can chain conditions</li>
       </ul>
       <iframe
-        height="400px"
+        height="500px"
         width="90%"
-        src="https://repl.it/repls/MajorSingleScreenscraper?lite=true"
+        src="https://repl.it/repls/MintyIrresponsibleVendor?lite=true"
         scrolling="no"
         frameborder="no"
         allowtransparency="true"
