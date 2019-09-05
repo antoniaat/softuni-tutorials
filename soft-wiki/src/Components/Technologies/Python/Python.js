@@ -3,10 +3,11 @@ import "../Technology.scss";
 import { NavLink, Switch, Route } from 'react-router-dom';
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
-import PythonNumber from './data/PythonNumber';
-import PythonString from './data/PythonString';
+import InstallingPython from './data/InstallingPython';
+import BasicSyntax from './data/BasicSyntax';
 import IfElseStatement from './data/IfElseStatement';
 import ForStatement from './data/ForStatement';
+import ConditionalStatements from './data/ConditionalStatements';
 
 class Python extends Component {
   render() {
@@ -19,32 +20,36 @@ class Python extends Component {
           }}
         >
           <TabList>
-            <Tab tabFor="DataTypes">
+            <Tab tabFor="BasicSyntaxConditionalStatementsAndLoops">
               <NavLink to='/python'>
-                <h3>Python Data Types</h3>
+                <h3>Basic Syntax, Conditional <br/> Statements and Loops</h3>
               </NavLink>
             </Tab>
-            <Tab tabFor="Statements">
+            <Tab tabFor="DataTypesAndVariables">
               <NavLink to='/python'>
-                <h3>Python Statements</h3>
+                <h3>Data Types and Variables</h3>
               </NavLink>
             </Tab>
           </TabList>
-          <TabPanel tabId="DataTypes">
+          <TabPanel tabId="BasicSyntaxConditionalStatementsAndLoops">
             <Switch>
-              <Route path="/python/number" component={PythonNumber}></Route>
-              <Route path="/python/string" component={PythonString}></Route>
+              <Route path="/python/installing_python" component={InstallingPython}></Route>
+              <Route path="/python/basic_syntax" component={BasicSyntax}></Route>
+              <Route path="/python/conditional_statements" component={ConditionalStatements}></Route>
               <Route path="/python">
-                <NavLink to='/python/number'>
-                  <h2>Number</h2>
+                <NavLink to='/python/installing_python'>
+                  <h2>Installing Python</h2>
                 </NavLink>
-                <NavLink to='/python/string'>
-                  <h2>String</h2>
+                <NavLink to='/python/basic_syntax'>
+                  <h2>Basic Syntax</h2>
+                </NavLink>
+                <NavLink to='/python/conditional_statements'>
+                  <h2>Conditional Statements</h2>
                 </NavLink>
               </Route>
             </Switch>
           </TabPanel>
-          <TabPanel tabId="Statements">
+          <TabPanel tabId="DataTypesAndVariables">
             <Switch>
               <Route path="/python/if_else" component={IfElseStatement}></Route>
               <Route path="/python/for" component={ForStatement}></Route>
