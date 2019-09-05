@@ -8,6 +8,8 @@ import BasicSyntax from './data/BasicSyntax';
 import IfElseStatement from './data/IfElseStatement';
 import ForStatement from './data/ForStatement';
 import ConditionalStatements from './data/ConditionalStatements';
+import ForLoop from './data/ForLoop';
+import WhileLoop from './data/WhileLoop';
 
 class Python extends Component {
   render() {
@@ -36,6 +38,8 @@ class Python extends Component {
               <Route path="/python/installing_python" component={InstallingPython}></Route>
               <Route path="/python/basic_syntax" component={BasicSyntax}></Route>
               <Route path="/python/conditional_statements" component={ConditionalStatements}></Route>
+              <Route path="/python/for_loop" component={ForLoop}></Route>
+              <Route path="/python/while_loop" component={WhileLoop}></Route>
               <Route path="/python">
                 <NavLink to='/python/installing_python'>
                   <h2>Installing Python</h2>
@@ -45,6 +49,12 @@ class Python extends Component {
                 </NavLink>
                 <NavLink to='/python/conditional_statements'>
                   <h2>Conditional Statements</h2>
+                </NavLink>
+                <NavLink to='/python/for_loop'>
+                  <h2>For Loop</h2>
+                </NavLink>
+                <NavLink to='/python/while_loop'>
+                  <h2>While Loop</h2>
                 </NavLink>
               </Route>
             </Switch>
