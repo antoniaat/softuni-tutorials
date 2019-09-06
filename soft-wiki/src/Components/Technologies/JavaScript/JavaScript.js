@@ -7,6 +7,8 @@ import NodeJS from "./data/NodeJS.js";
 import Functions from "./data/Functions.js";
 import ConditionalStatements from "./data/ConditionalStatements.js";
 import Loops from "./data/Loops.js";
+import LetVSVar from "./data/LetVSVar.js";
+import VariablesScope from "./data/VariablesScope.js";
 
 class JavaScript extends Component {
   render() {
@@ -54,6 +56,36 @@ class JavaScript extends Component {
                 </NavLink>
                 <NavLink to="/javascript/loops">
                   <h2>Loops</h2>
+                </NavLink>
+              </Route>
+            </Switch>
+          </TabPanel>
+
+          <TabPanel tabId="DataTypes">
+            <p>
+              The data type of a value is an attribute that tells what kind of
+              data that value can have After ECMAScript 2015 there are seven
+              data types: Six primitive: Boolean, Null, Undefined, Number,
+              String, Symbol (new in ECMAScript 6) and Objects
+            </p>
+          </TabPanel>
+
+          <TabPanel tabId="Variables">
+            <Switch>
+              <Route path="/javascript/letvsvar" component={LetVSVar}></Route>
+              <Route
+                path="/javascript/varibles-scope"
+                component={VariablesScope}
+              ></Route>
+
+              <Route path="/javascript">
+                <NavLink to="/javascript/letvsvar">
+                  <h2>let VS var</h2>
+                </NavLink>
+              </Route>
+              <Route path="/javascript">
+                <NavLink to="/javascript/varibles-scope">
+                  <h2>lVariablesScope</h2>
                 </NavLink>
               </Route>
             </Switch>

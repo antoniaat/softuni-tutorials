@@ -1,4 +1,5 @@
 @import '../../../node_modules/react-web-tabs/dist/react-web-tabs.css';
+@import '../../styles/styles.scss';
 
 .technology-container {
     display: block;
@@ -10,15 +11,20 @@
     a {
         text-decoration: none;
         font-size: 23px;
-        color: #303440;
+        color: $darkColor;
         font-weight: 500;
+        display: block;
     }
 
     h2 {
         text-decoration: none;
         font-size: 20px;
-        color: #303440;
+        color: $darkColor;
         font-weight: 500;
+        width: auto;
+        // border-bottom: 2px solid $mainColor;
+        display: inherit;
+        padding-bottom: 1px;
     }
 
     li {
@@ -65,7 +71,7 @@
 
     .image {
         width: 80%;
-        padding-top:1rem;
+        padding-top: 1rem;
     }
 }
 
