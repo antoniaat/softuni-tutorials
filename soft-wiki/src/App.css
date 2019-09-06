@@ -4,3 +4,7 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+.rwt__tablist[aria-orientation="vertical"] .rwt__tab[aria-selected="true"]:after {
+    border-right: 3px solid #44A9F8 !important;
+}

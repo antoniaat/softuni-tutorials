@@ -27,13 +27,7 @@ function Footer() {
             modern practical education for software engineers and digital
             skills. SoftUni promotes the “learn by doing” approach for
             developing practical skills through its interactive learning
-            platform. Write code instead of reading or watching how to write
-            code. Solve real-world problems instead of learning theory. SoftUni
-            is not a coding academy, nor university. It provides solid
-            fundamental skills, mixed with modern technologies and a lot of
-            practice every day for 1-3 years. The final goal is to get
-            real-world skills and start a job in the software, IT or digital
-            industry.
+            platform.
           </p>
         </section>
         <section>
@@ -77,7 +71,7 @@ function Footer() {
           </div>
           <ul>
             <li>
-              <Link to="https://nakov.com">Nakov.com</Link>
+              <Link to="https://softuni.bg">SoftUni</Link>
             </li>
           </ul>
         </section>
@@ -85,7 +79,8 @@ function Footer() {
 
       <div>
         <section>
-          Copyright © 2019 SoftUni Wiki: Learn Programming. All rights reserved.
+          Copyright © 2019 SoftUni Tutorials: Learn Programming. All rights
+          reserved.
         </section>
 
         <section className="social-icons">

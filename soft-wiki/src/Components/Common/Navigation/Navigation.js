@@ -41,9 +41,9 @@ function Navigation() {
             </NavLink>
           </div>
 
-          <div className="search-bar">
+          {/* <div className="search-bar">
             <span>{faSearchIcon}</span>
-          </div>
+          </div> */}
         </div>
       </div>
       <Switch>
