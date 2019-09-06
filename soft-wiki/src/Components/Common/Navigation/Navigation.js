@@ -7,10 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-import Python from "../../Technologies/Python/Python.js";
-import Java from "../../Technologies/Java/Java.js";
-import CSharp from "../../Technologies/CSharp/CSharp.js";
-import JavaScript from "../../Technologies/JavaScript/JavaScript.js";
+import Python from "../../technologies/Python/Python.js";
+import Java from "../../technologies/Java/Java.js";
+import CSharp from "../../technologies/CSharp/CSharp.js";
+import JavaScript from "../../technologies/JavaScript/JavaScript.js";
 
 function Navigation() {
   const faHomeIcon = <FontAwesomeIcon icon={faHome} />;
