@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/softuni-tutorials/static/css/main.84475106.chunk.css",
-    "main.js": "/softuni-tutorials/static/js/main.e313c01d.chunk.js",
-    "main.js.map": "/softuni-tutorials/static/js/main.e313c01d.chunk.js.map",
+    "main.css": "/softuni-tutorials/static/css/main.91d0efb1.chunk.css",
+    "main.js": "/softuni-tutorials/static/js/main.663f7ffa.chunk.js",
+    "main.js.map": "/softuni-tutorials/static/js/main.663f7ffa.chunk.js.map",
     "runtime~main.js": "/softuni-tutorials/static/js/runtime~main.2dda3230.js",
     "runtime~main.js.map": "/softuni-tutorials/static/js/runtime~main.2dda3230.js.map",
     "static/css/2.a86b6dc4.chunk.css": "/softuni-tutorials/static/css/2.a86b6dc4.chunk.css",
-    "static/js/2.70fd0e36.chunk.js": "/softuni-tutorials/static/js/2.70fd0e36.chunk.js",
-    "static/js/2.70fd0e36.chunk.js.map": "/softuni-tutorials/static/js/2.70fd0e36.chunk.js.map",
+    "static/js/2.38d6d010.chunk.js": "/softuni-tutorials/static/js/2.38d6d010.chunk.js",
+    "static/js/2.38d6d010.chunk.js.map": "/softuni-tutorials/static/js/2.38d6d010.chunk.js.map",
     "index.html": "/softuni-tutorials/index.html",
-    "precache-manifest.4931eb59741d5c8fa28185cba51be41e.js": "/softuni-tutorials/precache-manifest.4931eb59741d5c8fa28185cba51be41e.js",
+    "precache-manifest.0e727ae4f8152db868a6635e060c0662.js": "/softuni-tutorials/precache-manifest.0e727ae4f8152db868a6635e060c0662.js",
     "service-worker.js": "/softuni-tutorials/service-worker.js",
     "static/css/2.a86b6dc4.chunk.css.map": "/softuni-tutorials/static/css/2.a86b6dc4.chunk.css.map",
-    "static/css/main.84475106.chunk.css.map": "/softuni-tutorials/static/css/main.84475106.chunk.css.map",
+    "static/css/main.91d0efb1.chunk.css.map": "/softuni-tutorials/static/css/main.91d0efb1.chunk.css.map",
     "static/media/logo-with-text.png": "/softuni-tutorials/static/media/logo-with-text.49330e6b.png"
   }
 }

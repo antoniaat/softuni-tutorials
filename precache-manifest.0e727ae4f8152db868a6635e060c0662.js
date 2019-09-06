@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f780ecf748e9b48156da65c4e0b10183",
+    "revision": "2cafc6cb938ea10f05c30af9207b7505",
     "url": "/softuni-tutorials/index.html"
   },
   {
-    "revision": "f12d8ab9b5b9adea1a75",
+    "revision": "4b6f906f9da32de6a199",
     "url": "/softuni-tutorials/static/css/2.a86b6dc4.chunk.css"
   },
   {
-    "revision": "57cc45afd7bc4181fa4c",
-    "url": "/softuni-tutorials/static/css/main.84475106.chunk.css"
+    "revision": "0c4c132ac03ad8e94957",
+    "url": "/softuni-tutorials/static/css/main.91d0efb1.chunk.css"
   },
   {
-    "revision": "f12d8ab9b5b9adea1a75",
-    "url": "/softuni-tutorials/static/js/2.70fd0e36.chunk.js"
+    "revision": "4b6f906f9da32de6a199",
+    "url": "/softuni-tutorials/static/js/2.38d6d010.chunk.js"
   },
   {
-    "revision": "57cc45afd7bc4181fa4c",
-    "url": "/softuni-tutorials/static/js/main.e313c01d.chunk.js"
+    "revision": "0c4c132ac03ad8e94957",
+    "url": "/softuni-tutorials/static/js/main.663f7ffa.chunk.js"
   },
   {
     "revision": "dd70b7f2bc5714da53b6",
