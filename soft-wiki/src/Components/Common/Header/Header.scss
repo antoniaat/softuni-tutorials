@@ -1,3 +1,5 @@
+@import '../../../styles/styles.scss';
+
 .Header {
     padding: 1em 2em;
     margin: 0;
@@ -19,12 +21,12 @@
             font-weight: 600;
             padding: 8px 12px;
             cursor: pointer;
-            border: 1px solid #44A9F8;
+            border: 1px solid $mainColor;
             outline: none;
 
             &:hover {
-                background: #303440;
-                border-color: #303440;
+                background: $darkColor;
+                border-color: $darkColor;
 
                 a {
                     color: white;
@@ -32,9 +34,9 @@
             }
 
             a {
-                color: #44A9F8;
+                color: $mainColor;
                 text-decoration: none;
-                font-family: 'Lato', sans-serif;
+                font-family: $mainFont;
             }
 
             span {
@@ -61,8 +63,8 @@
         vertical-align: bottom;
 
         a {
-            color: #fff;
-            background: #44A9F8;
+            color: white;
+            background: $mainColor;
             border-radius: 4px;
             text-align: center;
             text-decoration: none;
@@ -77,7 +79,7 @@
         }
 
         a:hover {
-            background: #303440;
+            background: $darkColor;
         }
     }
 }

@@ -1,6 +1,8 @@
+@import '../../../styles/styles.scss';
+
 .Footer {
     padding: 3em;
-    background-color: #303440;
+    background-color: $darkColor;
     color: white;
 
     ul {
@@ -9,7 +11,7 @@
 
     li {
         list-style: none;
-        border-bottom: 1px solid #444444;
+        border-bottom: 1px solid $lightGrey;
         padding-bottom: 6px;
     }
 
@@ -47,11 +49,11 @@
     }
 
     .footer-section-header {
-        border-bottom: 3px solid #44A9F8;
+        border-bottom: 3px solid $mainColor;
         margin: 1rem;
 
         span {
-            background: #44A9F8;
+            background: $mainColor;
             color: white;
             font-size: 26px;
             border-radius: 6px 6px 0 0;

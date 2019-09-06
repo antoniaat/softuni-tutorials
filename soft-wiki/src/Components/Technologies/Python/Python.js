@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import "../Technology.scss";
-import { NavLink, Switch, Route } from 'react-router-dom';
+import { NavLink, Switch, Route } from "react-router-dom";
 import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
-import InstallingPython from './data/InstallingPython';
-import BasicSyntax from './data/BasicSyntax';
-import IfElseStatement from './data/IfElseStatement';
-import ForStatement from './data/ForStatement';
-import ConditionalStatements from './data/ConditionalStatements';
-import ForLoop from './data/ForLoop';
-import WhileLoop from './data/WhileLoop';
+import InstallingPython from "./data/InstallingPython";
+import BasicSyntax from "./data/BasicSyntax";
+import IfElseStatement from "./data/IfElseStatement";
+import ForStatement from "./data/ForStatement";
+import ConditionalStatements from "./data/ConditionalStatements";
+import ForLoop from "./data/ForLoop";
+import WhileLoop from "./data/WhileLoop";
 
 class Python extends Component {
   render() {
@@ -23,37 +23,48 @@ class Python extends Component {
         >
           <TabList>
             <Tab tabFor="BasicSyntaxConditionalStatementsAndLoops">
-              <NavLink to='/python'>
-                <h3>Basic Syntax, Conditional <br/> Statements and Loops</h3>
+              <NavLink to="/python">
+                <h3>
+                  Basic Syntax, Conditional <br /> Statements and Loops
+                </h3>
               </NavLink>
             </Tab>
             <Tab tabFor="DataTypesAndVariables">
-              <NavLink to='/python'>
+              <NavLink to="/python">
                 <h3>Data Types and Variables</h3>
               </NavLink>
             </Tab>
           </TabList>
           <TabPanel tabId="BasicSyntaxConditionalStatementsAndLoops">
             <Switch>
-              <Route path="/python/installing_python" component={InstallingPython}></Route>
-              <Route path="/python/basic_syntax" component={BasicSyntax}></Route>
-              <Route path="/python/conditional_statements" component={ConditionalStatements}></Route>
+              <Route
+                path="/python/installing_python"
+                component={InstallingPython}
+              ></Route>
+              <Route
+                path="/python/basic_syntax"
+                component={BasicSyntax}
+              ></Route>
+              <Route
+                path="/python/conditional_statements"
+                component={ConditionalStatements}
+              ></Route>
               <Route path="/python/for_loop" component={ForLoop}></Route>
               <Route path="/python/while_loop" component={WhileLoop}></Route>
               <Route path="/python">
-                <NavLink to='/python/installing_python'>
+                <NavLink to="/python/installing_python">
                   <h2>Installing Python</h2>
                 </NavLink>
-                <NavLink to='/python/basic_syntax'>
+                <NavLink to="/python/basic_syntax">
                   <h2>Basic Syntax</h2>
                 </NavLink>
-                <NavLink to='/python/conditional_statements'>
+                <NavLink to="/python/conditional_statements">
                   <h2>Conditional Statements</h2>
                 </NavLink>
-                <NavLink to='/python/for_loop'>
+                <NavLink to="/python/for_loop">
                   <h2>For Loop</h2>
                 </NavLink>
-                <NavLink to='/python/while_loop'>
+                <NavLink to="/python/while_loop">
                   <h2>While Loop</h2>
                 </NavLink>
               </Route>
@@ -64,10 +75,10 @@ class Python extends Component {
               <Route path="/python/if_else" component={IfElseStatement}></Route>
               <Route path="/python/for" component={ForStatement}></Route>
               <Route path="/python">
-                <NavLink to='/python/if_else'>
+                <NavLink to="/python/if_else">
                   <h2>If-Else Statement</h2>
                 </NavLink>
-                <NavLink to='/python/for'>
+                <NavLink to="/python/for">
                   <h2>For Statement</h2>
                 </NavLink>
               </Route>

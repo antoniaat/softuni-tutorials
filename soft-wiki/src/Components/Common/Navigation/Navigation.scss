@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import '../../../styles/styles.scss';
 
 .Navigation {
-    background: #44A9F8;
+    background: $mainColor;
     padding: .4em 3em;
     box-shadow: inset 1px 3px 9px -6px;
 
@@ -13,7 +13,7 @@
         width: 80%;
 
         a {
-            font-family: 'Montserrat', sans-serif;
+            font-family: $headingsFont;
             margin: 0 .5em;
             color: white;
             text-decoration: none;
@@ -29,14 +29,14 @@
 
             &:hover {
                 padding: 8px;
-                background-color: #2e90db;
+                background-color: $mainColor;
                 box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.75);
             }
         }
 
         a:nth-child(1) {
             background: white;
-            color: #44A9F8;
+            color: $mainColor;
             height: 100%;
             padding: 7px;
             font-size: 23px;
