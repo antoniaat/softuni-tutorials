@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cafc6cb938ea10f05c30af9207b7505",
+    "revision": "b77f5f02203f84afb8140876d46a8830",
     "url": "/softuni-tutorials/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/softuni-tutorials/static/css/2.a86b6dc4.chunk.css"
   },
   {
-    "revision": "0c4c132ac03ad8e94957",
-    "url": "/softuni-tutorials/static/css/main.91d0efb1.chunk.css"
+    "revision": "63e32dbc2b8ae4d92d10",
+    "url": "/softuni-tutorials/static/css/main.b5d4016a.chunk.css"
   },
   {
     "revision": "4b6f906f9da32de6a199",
     "url": "/softuni-tutorials/static/js/2.38d6d010.chunk.js"
   },
   {
-    "revision": "0c4c132ac03ad8e94957",
-    "url": "/softuni-tutorials/static/js/main.663f7ffa.chunk.js"
+    "revision": "63e32dbc2b8ae4d92d10",
+    "url": "/softuni-tutorials/static/js/main.7f1f921b.chunk.js"
   },
   {
     "revision": "dd70b7f2bc5714da53b6",

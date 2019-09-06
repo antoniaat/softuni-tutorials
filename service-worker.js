@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/softuni-tutorials/precache-manifest.0e727ae4f8152db868a6635e060c0662.js"
+  "/softuni-tutorials/precache-manifest.cc8c713ff48c56c5c0e6774e42c9a4f8.js"
 );
 
 self.addEventListener('message', (event) => {
