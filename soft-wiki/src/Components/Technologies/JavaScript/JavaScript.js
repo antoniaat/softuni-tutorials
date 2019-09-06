@@ -22,6 +22,15 @@ class JavaScript extends Component {
             <Tab tabFor="Syntax">
               <h3>JavaScript Syntax</h3>
             </Tab>
+            <Tab tabFor="DataTypes">
+              <h3>Data Types</h3>
+            </Tab>
+            <Tab tabFor="Variables">
+              <h3>Variables</h3>
+            </Tab>
+            <Tab tabFor="Arrays">
+              <h3>Arrays</h3>
+            </Tab>
           </TabList>
           <TabPanel tabId="Syntax">
             <Switch>
